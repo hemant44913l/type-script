@@ -123,7 +123,7 @@ addButton.addEventListener("click", () => {
   if (!title) return;
 
   addTask(title);
-  titleInput.value = "12";
+  titleInput.value = "";
   titleInput.focus();
   render();
 });
