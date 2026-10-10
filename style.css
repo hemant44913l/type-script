@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; background: #f9fafb; color: #111827; }
+.wrap { max-width: 600px; margin: 40px auto; padding: 16px; background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.addrow { display: flex; gap: 8px; }
+input { flex: 1; padding: 9px; border: 1px solid #e2e6f0; border-radius: 9px; }
+#add { background: #7c5cff; color: #fff; border: none; border-radius: 9px; padding: 9px 16px; cursor: pointer; font-weight: bold; }
+.chip { padding: 4px 12px; border-radius: 16px; border: 1px solid #e2e6f0; background: #fff; cursor: pointer; }
+.chip.active { background: #111827; color: white; border-color: #111827; }
+li.task { display: flex; align-items: center; gap: 9px; border: 1px solid #e2e6f0; border-radius: 11px; padding: 10px; margin-top: 8px; }
+.task-title { flex: 1; }
+.task-badge { font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; background: #f3f4f6; text-transform: uppercase; }
+.btn-sm { background: transparent; border: 1px solid #e2e6f0; border-radius: 6px; cursor: pointer; padding: 4px 8px; }
